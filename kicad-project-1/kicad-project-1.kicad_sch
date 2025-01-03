@@ -1,0 +1,10742 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "2bd6140e-5814-4211-a129-02602eed9414")
+	(paper "A4")
+	(lib_symbols
+		(symbol "ROW_VERT_1X3_1"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "ROW_VERT/1X3"
+				(at 12.7 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "ROW_VERT_1X3"
+				(at 12.7 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "VAMK_CON:ROW_VERT_1x3"
+				(at 12.7 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "\"\""
+				(at 12.7 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Plug, Vertical Row Header"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Storing Location" "3.10.1.X"
+				(at 12.7 -5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Elfa" "43-702-19"
+				(at 12.7 -7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Numer Farnell" "329-1807"
+				(at 12.7 -10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "\"\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ROW_VERT_1X3_1_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "VAMK_ANA:BC547_TO92_0.1A"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BC547_"
+				(at 17.78 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "BC547_TO92_0.1A"
+				(at 17.78 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "VAMK_ANA:TO-92"
+				(at 17.78 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "\"\""
+				(at 17.78 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "AMPLIFIER NPN SILICON TRANSISTOR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Storing Location" "3.2.2.1"
+				(at 17.78 -5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Decal" "TO-92"
+				(at 17.78 -7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Elfa" "71-039-22"
+				(at 17.78 -10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Farnell" "357054"
+				(at 17.78 -12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BC547_TO92_0.1A_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "VAMK_C:10NF_100V_CER"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "10NF_100V_CER"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "VAMK_C:C5_0"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "\"\""
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" " Ceramic disc capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Storing Location" " 2.4.1.2"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Prototype Name" "10n"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" " +-10%"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Elfa" "65-735-39"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "\"capacitor\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "10NF_100V_CER_1_1"
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "VAMK_C:4.7UF_50V_ELE"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "4.7UF_50V_ELE"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "VAMK_C:C_P_2_0_5"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "\"\""
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" " Aluminum electrolytic capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Storing Location" " 2.5.4.2"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Prototype Name" "4.7u"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" " +-20%"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Elfa" "67-013-46"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Farnell" "105865"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "\"capacitor\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "4.7UF_50V_ELE_1_1"
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 1.905) (xy -3.81 0.635) (xy -3.81 1.27) (xy -4.445 1.27) (xy -3.81 1.27) (xy -3.175 1.27)
+						(xy -3.81 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "VAMK_CON:ROW_VERT_1X2"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "ROW_VERT/1X2"
+				(at 15.24 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "ROW_VERT_1X2"
+				(at 15.24 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "VAMK_CON:ROW_VERT_1x2"
+				(at 15.24 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "\"\""
+				(at 15.24 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Plug, Vertical Row Header"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Storing Location" "3.10.1.X"
+				(at 15.24 -5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Elfa" "43-702-19"
+				(at 15.24 -7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Numer Farnell" "329-1807"
+				(at 15.24 -10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "\"\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ROW_VERT_1X2_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "VAMK_CON:ROW_VERT_1X3"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "ROW_VERT/1X3"
+				(at 12.7 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "ROW_VERT_1X3"
+				(at 12.7 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "VAMK_CON:ROW_VERT_1x3"
+				(at 12.7 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "\"\""
+				(at 12.7 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Plug, Vertical Row Header"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Storing Location" "3.10.1.X"
+				(at 12.7 -5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Elfa" "43-702-19"
+				(at 12.7 -7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Numer Farnell" "329-1807"
+				(at 12.7 -10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "\"\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ROW_VERT_1X3_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "VAMK_IC:uA741CP_DIL8"
+			(pin_names
+				(offset 0.1016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "uA741CP"
+				(at 22.86 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "uA741CP_DIL8"
+				(at 22.86 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "VAMK_IC:DIL8"
+				(at 22.86 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "\"\""
+				(at 22.86 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Op-amp Single, general purporse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Farnell" "1094414"
+				(at 22.86 -5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Blank Field" "none"
+				(at 22.86 -7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Elfa" "73-010-21"
+				(at 22.86 -10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "\"\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "uA741CP_DIL8_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "NULL"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -7.62 90)
+					(length 6.35)
+					(name "NULL"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 2.54 270)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "VAMK_MISC:TRIMMER_1K"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TRIMMER/1K"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "TRIMMER_1K"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "VAMK_MISC:TRIMMER"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "\"\""
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Trimmer, 1k"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Storing Location" "4.3.1.1"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Farnell" "9607811"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "TRIMMER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TRIMMER_1K_0_1"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.889 -0.889) (xy -0.127 -1.27)
+					)
+					(stroke
+						(width 0.3048)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TRIMMER_1K_1_1"
+				(rectangle
+					(start -5.08 1.27)
+					(end 5.08 -1.27)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.985 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.969 1.651) (xy -6.477 0.762)
+					)
+					(stroke
+						(width 0.3048)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.969 1.651) (xy -5.461 2.54)
+					)
+					(stroke
+						(width 0.3048)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.969 1.651) (xy -0.889 -0.889)
+					)
+					(stroke
+						(width 0.3048)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 6.985 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -3.175) (xy -6.985 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -9.525 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -9.525 -3.175 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 9.525 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "VAMK_R:100R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "100R"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "VAMK_R:R3_5W"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "\"\""
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100R/1%/0.6W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Storing Location" " 1.5.1.1"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "+-1%"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Elfa" "60-711-46"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Farnell" "9463909"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Blank Field" "none"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "\"Resistor\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "100R_1_1"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "VAMK_R:10k"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "10k"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "VAMK_R:R3_5W"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "\"\""
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10K/1%/0.6W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Storing Location" " 1.9.1.1"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "+-1%"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Elfa" "60-734-23"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Farnell" "9463976"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Blank Field" "none"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "\"Resistor\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "10k_1_1"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "VAMK_R:150R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "150R"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "VAMK_R:R3_5W"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "\"\""
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "150R/1%/0.6W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Storing Location" " 1.5.2.2"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "+-1%"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Elfa" "60-713-28"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Farnell" "9464638"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Blank Field" "none"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "\"Resistor\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "150R_1_1"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "VAMK_R:150k"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "150k"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "VAMK_R:R3_5W"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "\"\""
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "150K/1%/0.6W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Storing Location" " 1.11.2.2"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "+-1%"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Elfa" "60-747-44"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Farnell" "9464620"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Blank Field" "none"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "\"Resistor\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "150k_1_1"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "VAMK_R:560R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "560R"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "VAMK_R:R3_5W"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "\"\""
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "560R/1%/0.6W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Storing Location" " 1.6.3.1"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "+-1%"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Elfa" "60-719-97"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Farnell" "9469036"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Blank Field" "none"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "\"Resistor\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "560R_1_1"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "VAMK_R:56R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "56R"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "VAMK_R:R3_5W"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "\"\""
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "56R/1%/0.6W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Storing Location" " 1.4.3.1"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "+-1%"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Elfa" "60-708-58"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Farnell" "9469087"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Blank Field" "none"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "\"Resistor\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "56R_1_1"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+15V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+15V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+15V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+15V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+15V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:-15V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "-15V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-15V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "-15V_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "-15V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 86.36 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03a3a7ef-e8c3-4acd-9950-c8d022fea8ed")
+	)
+	(junction
+		(at 257.81 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09369ad2-4302-4828-b09e-5504e0927476")
+	)
+	(junction
+		(at 86.36 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "320538ed-d292-44ac-9675-b32b425716ff")
+	)
+	(junction
+		(at 129.54 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38ac0b46-d2cf-4185-84fb-9c5e4f983580")
+	)
+	(junction
+		(at 45.72 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f6aa5bd-7d30-42dc-8658-7725ec7a7903")
+	)
+	(junction
+		(at 101.6 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fc3f228-5a44-411f-ac60-349c36fdeb6f")
+	)
+	(junction
+		(at 118.11 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48cd43bb-085a-4532-be88-acbe89358fc5")
+	)
+	(junction
+		(at 36.83 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4aca6e97-b49d-40e5-823b-8edcac84e9ba")
+	)
+	(junction
+		(at 118.11 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53197852-87b3-4770-8443-1d64d236d556")
+	)
+	(junction
+		(at 36.83 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5417447c-4f70-4c7b-abd3-1f5404a4dcc5")
+	)
+	(junction
+		(at 54.61 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d61ef14-279f-4893-bf8e-6cc6c0a85257")
+	)
+	(junction
+		(at 200.66 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f28109c-f9fc-4865-8f06-bc9b62ae6159")
+	)
+	(junction
+		(at 39.37 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b6d2250-3887-47d4-84be-d4fdc5b5f3c9")
+	)
+	(junction
+		(at 54.61 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85740967-00e1-4f6f-967b-6d6712fa1c7d")
+	)
+	(junction
+		(at 101.6 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "951e514b-432c-4a45-8273-e10e91522463")
+	)
+	(junction
+		(at 115.57 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96f4b17b-ec08-475f-bf5f-4ff73601bcd1")
+	)
+	(junction
+		(at 232.41 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96fbb927-44e6-4807-a953-9adc8c91a55f")
+	)
+	(junction
+		(at 200.66 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "997d9b1f-959e-469f-8b36-dab95efa49f7")
+	)
+	(junction
+		(at 71.12 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c90e862-d7b5-4aef-9420-8ac97d6f6bb4")
+	)
+	(junction
+		(at 71.12 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d1fe5d4-a48d-440a-9ae1-4499d30b75d2")
+	)
+	(junction
+		(at 55.88 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a563f9a3-0f99-4e8b-8bf7-2fa98961f0ef")
+	)
+	(junction
+		(at 257.81 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5d09fbb-dd1a-47db-9247-5ca3ed4e8efd")
+	)
+	(junction
+		(at 140.97 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad6fce3a-62bb-4cdf-8078-b1746c3f51f5")
+	)
+	(junction
+		(at 101.6 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b31234d3-a7da-441d-8361-688a68c5bc75")
+	)
+	(junction
+		(at 39.37 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b54d016b-73e4-44e8-86cf-5aa0a64fb3de")
+	)
+	(junction
+		(at 118.11 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5687874-8e1a-43c9-968b-0cfd583d163a")
+	)
+	(junction
+		(at 140.97 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfe481ee-4eb5-444f-bdae-def2608336a8")
+	)
+	(junction
+		(at 71.12 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c52583a7-6900-4310-9f51-ecbbdf840c8e")
+	)
+	(junction
+		(at 168.91 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9a73837-0ace-452f-b517-bd903b3e32f7")
+	)
+	(junction
+		(at 54.61 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d681f4b9-b25f-4925-a6d8-3f1fb84f9f10")
+	)
+	(junction
+		(at 86.36 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "daf21c2e-4215-443b-a5b7-cc776cfe3902")
+	)
+	(junction
+		(at 115.57 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0754932-8bde-4288-acda-88d7cc1f7581")
+	)
+	(junction
+		(at 257.81 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0e37ef8-5d36-4ef0-a0c4-a5f0cda1f331")
+	)
+	(junction
+		(at 54.61 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1febaaa-19fd-4156-b071-12cecbce153a")
+	)
+	(junction
+		(at 200.66 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3473278-8c58-4829-aca4-b609059f0140")
+	)
+	(junction
+		(at 118.11 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6b03bda-a399-4ff5-b3b5-ffe49ebcc625")
+	)
+	(junction
+		(at 115.57 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6db64f4-7627-4aa4-b5e7-c5934423eb90")
+	)
+	(junction
+		(at 55.88 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9cc0226-bcc9-4066-b7c8-2e30057c3926")
+	)
+	(junction
+		(at 55.88 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fae307de-e870-47c2-9444-1af63c473019")
+	)
+	(no_connect
+		(at 215.9 73.66)
+		(uuid "0af55ac2-3889-49b9-a4fe-74864cb34175")
+	)
+	(no_connect
+		(at 118.11 100.965)
+		(uuid "56d6a31c-7893-4573-a887-921e9de99ca1")
+	)
+	(no_connect
+		(at 96.52 111.76)
+		(uuid "6d7bb68d-6a80-48ed-833a-69092c6037e2")
+	)
+	(no_connect
+		(at 148.59 76.2)
+		(uuid "87c8f259-1d11-4af6-baa8-6276430ee2d6")
+	)
+	(no_connect
+		(at 93.98 111.76)
+		(uuid "91372dd1-afb8-48b9-8faa-d5a2c76ed6a6")
+	)
+	(no_connect
+		(at 213.36 73.66)
+		(uuid "b46986a8-a9a7-4786-a3dc-091f6ceb3971")
+	)
+	(no_connect
+		(at 100.33 60.96)
+		(uuid "ef83122d-5d9e-4e51-9c3a-2d055e17d8b6")
+	)
+	(no_connect
+		(at 151.13 76.2)
+		(uuid "f5e85b28-7ab7-410f-b47d-16f0d7636035")
+	)
+	(no_connect
+		(at 97.79 60.96)
+		(uuid "f9807ee8-19e6-4ddb-b0d9-344848774caa")
+	)
+	(no_connect
+		(at 54.61 90.805)
+		(uuid "ff841887-2204-4ea2-bd5e-da408890eda8")
+	)
+	(wire
+		(pts
+			(xy 63.5 21.59) (xy 63.5 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0229fa35-b1e3-4cde-9f61-72d61f45c560")
+	)
+	(wire
+		(pts
+			(xy 101.6 165.1) (xy 101.6 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06e282a2-cbf7-41ad-a802-e151c7bf8b67")
+	)
+	(polyline
+		(pts
+			(xy 218.44 88.265) (xy 218.44 107.95)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "06e9d93b-fdeb-4cf5-b7be-e2efe962d6bb")
+	)
+	(wire
+		(pts
+			(xy 54.61 50.8) (xy 90.17 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a593162-191f-4125-8cd3-933dcbd73364")
+	)
+	(wire
+		(pts
+			(xy 232.41 67.31) (xy 232.41 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e19baef-5e8a-4443-81d0-bb6cdae390d1")
+	)
+	(wire
+		(pts
+			(xy 118.11 53.34) (xy 121.92 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc43a68-806d-4115-b1aa-3f3cbae397f8")
+	)
+	(wire
+		(pts
+			(xy 54.61 39.37) (xy 54.61 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10829c67-ccdf-4753-8bcf-7872bd18a808")
+	)
+	(wire
+		(pts
+			(xy 39.37 189.23) (xy 55.88 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12b87e4f-9b99-4df4-889f-f4c5379077d7")
+	)
+	(polyline
+		(pts
+			(xy 237.49 45.72) (xy 237.49 57.785)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "12ec312d-04f7-419a-97c8-83ed3ff9aed5")
+	)
+	(wire
+		(pts
+			(xy 54.61 50.8) (xy 54.61 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12fc3425-6890-41a7-b238-d9594612a013")
+	)
+	(wire
+		(pts
+			(xy 118.11 119.38) (xy 121.92 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "143aeca3-d357-41b6-b430-ee862bac5e2a")
+	)
+	(wire
+		(pts
+			(xy 55.88 168.91) (xy 71.12 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16295632-55d5-4db3-9001-4d0619123eb0")
+	)
+	(wire
+		(pts
+			(xy 57.785 90.805) (xy 57.785 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cd37bf2-db7d-471a-9b65-9befcfe8cb02")
+	)
+	(wire
+		(pts
+			(xy 21.59 24.13) (xy 21.59 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e60803a-b83c-4763-82ed-75c0e0290113")
+	)
+	(wire
+		(pts
+			(xy 200.66 53.34) (xy 228.6 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21dbf930-115e-4f47-8875-e4120f659d48")
+	)
+	(wire
+		(pts
+			(xy 71.12 168.91) (xy 71.12 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22e22cd7-698d-4d6e-8865-ea315585cdf1")
+	)
+	(wire
+		(pts
+			(xy 194.31 83.82) (xy 200.66 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "271c7c15-1798-4dd3-beaf-25c1bdca80c3")
+	)
+	(polyline
+		(pts
+			(xy 218.44 107.95) (xy 173.99 107.95)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "2bae2530-bd12-43ec-969a-251cef4d63d2")
+	)
+	(wire
+		(pts
+			(xy 101.6 119.38) (xy 118.11 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31a33aa9-5ba8-4e11-b8e7-26992559d5ef")
+	)
+	(wire
+		(pts
+			(xy 71.12 189.23) (xy 86.36 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33c56310-217e-4e42-93da-8abf2406dcdd")
+	)
+	(wire
+		(pts
+			(xy 54.61 34.29) (xy 54.61 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "390a765f-8567-4f8b-a90e-2aee64378bf8")
+	)
+	(wire
+		(pts
+			(xy 101.6 148.59) (xy 115.57 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39263fe2-94eb-4967-ab2f-77732980d4fb")
+	)
+	(wire
+		(pts
+			(xy 55.88 148.59) (xy 55.88 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b300254-062c-4430-870b-ec4319572f38")
+	)
+	(wire
+		(pts
+			(xy 129.54 168.91) (xy 129.54 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cc2623f-bef8-4402-af4b-6d9004817207")
+	)
+	(wire
+		(pts
+			(xy 129.54 148.59) (xy 129.54 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40f19b42-3b7f-4e38-b44e-6f3e9f3af81d")
+	)
+	(wire
+		(pts
+			(xy 86.36 189.23) (xy 86.36 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "432f97b2-37df-47fc-9e34-273225a05382")
+	)
+	(wire
+		(pts
+			(xy 200.66 100.33) (xy 200.66 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43b529a6-6d35-4ffa-b14f-17ccc6f39cae")
+	)
+	(wire
+		(pts
+			(xy 36.83 21.59) (xy 36.83 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4546ec6b-1dd9-4e5f-82a6-ea4bb2c90306")
+	)
+	(polyline
+		(pts
+			(xy 283.21 142.24) (xy 237.49 142.24)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "46d1fdc9-4e4d-4f95-b201-de08a52eebd3")
+	)
+	(wire
+		(pts
+			(xy 39.37 148.59) (xy 55.88 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "479dd05e-c252-4a33-b8d5-cce28df49a81")
+	)
+	(wire
+		(pts
+			(xy 115.57 168.91) (xy 115.57 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c1923d-8475-4937-b6f2-e76ffae61bb3")
+	)
+	(wire
+		(pts
+			(xy 115.57 165.1) (xy 115.57 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4889aafa-74da-41a5-89da-6e0af8415643")
+	)
+	(polyline
+		(pts
+			(xy 237.49 57.785) (xy 233.045 57.785)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "49093947-c127-44eb-b652-fd4f52d1dc9f")
+	)
+	(polyline
+		(pts
+			(xy 173.99 107.95) (xy 173.99 45.72)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "49c42193-6c93-4abe-b436-bdd33de861b3")
+	)
+	(polyline
+		(pts
+			(xy 173.99 45.72) (xy 177.165 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a594f3d-ccf6-48b8-8d7b-9102657f0a9b")
+	)
+	(wire
+		(pts
+			(xy 36.83 39.37) (xy 36.83 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4abbd509-bae2-4524-8f2f-67a14fd9d8d7")
+	)
+	(wire
+		(pts
+			(xy 21.59 21.59) (xy 36.83 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d13c027-3d6d-40cd-b5f3-ddaf73b7811d")
+	)
+	(wire
+		(pts
+			(xy 121.285 106.68) (xy 118.11 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dc56d9f-7b48-4707-8681-5938a6171c4e")
+	)
+	(wire
+		(pts
+			(xy 101.6 189.23) (xy 115.57 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f3de965-7a4e-48d4-9f6f-131435f03c1e")
+	)
+	(wire
+		(pts
+			(xy 129.54 119.38) (xy 140.97 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5190d211-a138-4089-91f3-6856ca823ca9")
+	)
+	(wire
+		(pts
+			(xy 54.61 124.46) (xy 54.61 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54fb4d85-aabb-49cf-953b-6a167d44739a")
+	)
+	(wire
+		(pts
+			(xy 156.21 83.82) (xy 168.91 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5629fead-2610-4801-b726-c30b240b5820")
+	)
+	(wire
+		(pts
+			(xy 86.36 148.59) (xy 101.6 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aaf1e4c-7379-4fa6-acd5-4465eee58fe4")
+	)
+	(wire
+		(pts
+			(xy 217.17 67.31) (xy 232.41 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c5fcd95-d6e5-498a-9466-171061fe1902")
+	)
+	(wire
+		(pts
+			(xy 140.97 86.36) (xy 140.97 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e39fcf4-f9d2-4353-9bef-fd9d8acf93ce")
+	)
+	(wire
+		(pts
+			(xy 39.37 189.23) (xy 39.37 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f8e45cc-afb2-4d6e-88b8-e1c43ebbed1e")
+	)
+	(wire
+		(pts
+			(xy 71.12 148.59) (xy 71.12 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fde58df-9c23-44a9-a425-f1ddaee3ab01")
+	)
+	(wire
+		(pts
+			(xy 115.57 168.91) (xy 129.54 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fe1e1ff-926f-46f3-b6d9-a5f7563c9c71")
+	)
+	(polyline
+		(pts
+			(xy 233.045 57.785) (xy 233.045 88.265)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "60d880a9-6caf-465a-b0a1-80b5d27bcfcc")
+	)
+	(wire
+		(pts
+			(xy 118.11 114.3) (xy 118.11 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "659958dc-4998-41b3-9a09-34d6bcaa3454")
+	)
+	(wire
+		(pts
+			(xy 27.94 168.91) (xy 55.88 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6640ed23-52b5-4bc5-9d93-d267f543f6d7")
+	)
+	(polyline
+		(pts
+			(xy 283.21 50.165) (xy 283.21 142.24)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "66ad841d-a9c6-4e03-a515-b4533e126a60")
+	)
+	(wire
+		(pts
+			(xy 177.8 53.34) (xy 177.8 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66dee48e-f2f7-40ac-a98b-5cc6582ebb3c")
+	)
+	(wire
+		(pts
+			(xy 80.01 116.84) (xy 86.36 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "675adae7-438d-4de6-8e93-5bdf5f3650f5")
+	)
+	(wire
+		(pts
+			(xy 86.36 168.91) (xy 86.36 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68e609bc-2bde-4aa3-abae-117b16f28a4c")
+	)
+	(polyline
+		(pts
+			(xy 240.665 50.165) (xy 283.21 50.165)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "6b09bf0b-0d58-4169-89b2-db2761eb00ec")
+	)
+	(wire
+		(pts
+			(xy 200.66 107.95) (xy 200.66 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c13008e-8abd-4479-85db-416040dddbbb")
+	)
+	(wire
+		(pts
+			(xy 36.83 39.37) (xy 45.72 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c387115-fa21-4f23-bab2-f4abc2363c7b")
+	)
+	(wire
+		(pts
+			(xy 257.81 86.36) (xy 257.81 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cf725c1-8586-4e98-97b6-58a329659ff3")
+	)
+	(wire
+		(pts
+			(xy 200.66 67.31) (xy 200.66 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d92c6ee-b309-4d76-a819-dff820b5befe")
+	)
+	(wire
+		(pts
+			(xy 140.97 53.34) (xy 142.24 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f1c805a-a4e3-432f-8065-acbd182542d5")
+	)
+	(wire
+		(pts
+			(xy 242.57 64.77) (xy 242.57 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7151c01e-662a-4483-ae45-49e7aa1de1e3")
+	)
+	(wire
+		(pts
+			(xy 80.01 106.68) (xy 80.01 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7255caf5-a7d6-4e75-aa45-ba93566d6769")
+	)
+	(wire
+		(pts
+			(xy 186.69 53.34) (xy 177.8 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74435dab-7d9e-4cc4-8e28-ec702d9aa514")
+	)
+	(wire
+		(pts
+			(xy 71.12 189.23) (xy 71.12 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "744858d7-9f2b-4c7d-aac3-f188ca0a0302")
+	)
+	(wire
+		(pts
+			(xy 129.54 53.34) (xy 140.97 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765534dd-0054-42b0-a0b8-51c2543edfe7")
+	)
+	(wire
+		(pts
+			(xy 55.88 165.1) (xy 55.88 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76822c3a-a5a9-4f37-bd96-9029e2575fa2")
+	)
+	(wire
+		(pts
+			(xy 54.61 39.37) (xy 63.5 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7699e763-eb65-402e-84e2-0183f1d81645")
+	)
+	(polyline
+		(pts
+			(xy 237.49 59.055) (xy 240.665 59.055)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "76c8dcdd-ded7-4bce-9f73-59a70f3844df")
+	)
+	(wire
+		(pts
+			(xy 86.36 189.23) (xy 101.6 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "777b646c-744f-45ba-a014-3169dea31401")
+	)
+	(wire
+		(pts
+			(xy 101.6 168.91) (xy 101.6 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "788716e0-7a88-4482-a012-a0ea7e922feb")
+	)
+	(wire
+		(pts
+			(xy 257.81 102.87) (xy 257.81 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db1a8e6-50cb-447a-bbc7-5b9a512195e9")
+	)
+	(wire
+		(pts
+			(xy 257.81 133.35) (xy 259.08 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f619552-a176-4d7f-82de-0924cae944be")
+	)
+	(wire
+		(pts
+			(xy 45.72 34.29) (xy 45.72 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f70db1a-dde9-4edc-a28a-c39eed8a648b")
+	)
+	(wire
+		(pts
+			(xy 236.22 53.34) (xy 271.78 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "800e6b7d-1a63-4d6d-b9c7-448fdb872060")
+	)
+	(wire
+		(pts
+			(xy 129.54 165.1) (xy 129.54 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "821749e0-1203-4beb-a2f4-3e5a9b755102")
+	)
+	(wire
+		(pts
+			(xy 105.41 53.34) (xy 118.11 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83166ffc-769f-42e2-a78b-4c97b682cc68")
+	)
+	(wire
+		(pts
+			(xy 163.83 119.38) (xy 163.83 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87b998a2-3d2c-4c0d-b4b5-ef082793aeca")
+	)
+	(wire
+		(pts
+			(xy 200.66 53.34) (xy 200.66 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87e3eff6-ef52-4da9-98e2-a5b066386ff2")
+	)
+	(wire
+		(pts
+			(xy 55.88 189.23) (xy 71.12 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89d5c967-376d-468c-92cb-0a4586b4eb83")
+	)
+	(wire
+		(pts
+			(xy 39.37 148.59) (xy 39.37 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c91f824-5d20-45e4-b51d-4abca77875c0")
+	)
+	(wire
+		(pts
+			(xy 257.81 116.84) (xy 257.81 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e5e74cf-9f66-4646-a222-87d5cc3bb536")
+	)
+	(wire
+		(pts
+			(xy 257.81 64.77) (xy 257.81 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f02f49a-afd6-4d31-869a-81c10dcd2bec")
+	)
+	(wire
+		(pts
+			(xy 118.11 53.34) (xy 118.11 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90321cd7-e732-417a-af21-26ec1d728ef5")
+	)
+	(wire
+		(pts
+			(xy 90.17 55.88) (xy 90.17 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92d331cf-60de-481a-8647-30c8c1df88f3")
+	)
+	(wire
+		(pts
+			(xy 57.785 96.52) (xy 54.61 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94c65ca6-90b3-4559-822f-a7a76c1f5dd9")
+	)
+	(wire
+		(pts
+			(xy 147.32 168.91) (xy 147.32 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "954f9a17-692c-45ce-a336-199fde9c7883")
+	)
+	(wire
+		(pts
+			(xy 194.31 53.34) (xy 200.66 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "990e88c5-4733-4a32-898e-8c1e83fb6570")
+	)
+	(wire
+		(pts
+			(xy 101.6 148.59) (xy 101.6 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "999bfb31-fbbe-4d3d-aa1f-a8bd110c82df")
+	)
+	(wire
+		(pts
+			(xy 54.61 21.59) (xy 63.5 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b47b996-1a05-4a75-81c1-635955711849")
+	)
+	(wire
+		(pts
+			(xy 118.11 106.68) (xy 80.01 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f881b93-99fd-436f-8c49-f7c624b46452")
+	)
+	(wire
+		(pts
+			(xy 55.88 148.59) (xy 71.12 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a13f6c46-3e06-40bf-a579-f5de2591d274")
+	)
+	(wire
+		(pts
+			(xy 54.61 96.52) (xy 54.61 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1552d41-6143-4e53-a0b2-213feea30420")
+	)
+	(wire
+		(pts
+			(xy 101.6 189.23) (xy 101.6 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2e02dec-b542-4a9e-adb2-3703f0bdbf44")
+	)
+	(wire
+		(pts
+			(xy 55.88 189.23) (xy 55.88 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a511df29-5d1e-42d1-8891-f7a1b5d8445f")
+	)
+	(wire
+		(pts
+			(xy 115.57 189.23) (xy 115.57 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a59ef763-d884-4ae2-acea-ff95170e47ab")
+	)
+	(wire
+		(pts
+			(xy 151.13 119.38) (xy 163.83 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a83acd7b-5da4-4065-ab83-f936d99059c8")
+	)
+	(wire
+		(pts
+			(xy 36.83 34.29) (xy 36.83 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9239788-1738-4c3b-87e0-23847eb68376")
+	)
+	(wire
+		(pts
+			(xy 149.86 53.34) (xy 168.91 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9ad170a-0008-4f58-b0f7-a6dcfdc34f5e")
+	)
+	(wire
+		(pts
+			(xy 86.36 148.59) (xy 86.36 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac983323-e63f-417f-aa85-547deef1020d")
+	)
+	(wire
+		(pts
+			(xy 200.66 67.31) (xy 204.47 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acef27b0-e6db-4a6a-bec4-e3ba34ac5b70")
+	)
+	(wire
+		(pts
+			(xy 140.97 119.38) (xy 143.51 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad376acd-a232-4fea-8e4f-2fa55a6087fa")
+	)
+	(wire
+		(pts
+			(xy 118.11 77.47) (xy 118.11 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad81c36e-5f16-4a09-b2de-893b60ea0c7e")
+	)
+	(wire
+		(pts
+			(xy 21.59 36.83) (xy 21.59 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adc2216d-30e4-4617-9d81-9a626880eb2c")
+	)
+	(wire
+		(pts
+			(xy 39.37 171.45) (xy 39.37 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adc5954a-2761-4736-93ba-1bc2b293faaf")
+	)
+	(wire
+		(pts
+			(xy 45.72 21.59) (xy 54.61 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1726d84-1990-4c28-b5de-ea376c14da10")
+	)
+	(polyline
+		(pts
+			(xy 233.045 88.265) (xy 218.44 88.265)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "b270f6b6-f2c5-408d-9bcf-a83059358e00")
+	)
+	(wire
+		(pts
+			(xy 101.6 168.91) (xy 115.57 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2a49c03-fd6c-4dd8-96b6-228893723d46")
+	)
+	(wire
+		(pts
+			(xy 71.12 165.1) (xy 71.12 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5eb0df5-2cd5-42df-9854-66185d17eec0")
+	)
+	(polyline
+		(pts
+			(xy 237.49 142.24) (xy 237.49 59.055)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "b6b54517-bfdd-4412-a425-15cf60a5159d")
+	)
+	(wire
+		(pts
+			(xy 36.83 21.59) (xy 45.72 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8e2463e-30e3-4e98-8752-76008c7a6a2f")
+	)
+	(wire
+		(pts
+			(xy 63.5 39.37) (xy 63.5 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b96f2a05-b7a6-46bd-8780-1ee37fa32a15")
+	)
+	(wire
+		(pts
+			(xy 27.94 166.37) (xy 39.37 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcaa8a86-f331-4e77-84a3-fbd9c52009ba")
+	)
+	(wire
+		(pts
+			(xy 45.72 21.59) (xy 45.72 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf6e3c07-2fb6-4cc2-b1f0-556c3f8ff2c9")
+	)
+	(wire
+		(pts
+			(xy 168.91 53.34) (xy 168.91 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c09d8295-c094-415c-9ae7-579f204fcc03")
+	)
+	(wire
+		(pts
+			(xy 129.54 168.91) (xy 147.32 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c24da7a0-173b-497e-a481-f83473c3c9ea")
+	)
+	(wire
+		(pts
+			(xy 27.94 119.38) (xy 36.83 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c31e3371-e367-49e8-8340-d14ca41350ce")
+	)
+	(wire
+		(pts
+			(xy 90.17 67.31) (xy 118.11 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c34e4c39-5d39-46f5-8f5c-365909b811b0")
+	)
+	(wire
+		(pts
+			(xy 257.81 64.77) (xy 257.81 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c34e9e88-2665-4f2d-833c-680712913643")
+	)
+	(wire
+		(pts
+			(xy 27.94 124.46) (xy 54.61 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5ebc5cd-519d-49ce-bb32-77433efc0112")
+	)
+	(wire
+		(pts
+			(xy 27.94 171.45) (xy 39.37 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca2e5641-489b-48be-b893-9ae95207f531")
+	)
+	(wire
+		(pts
+			(xy 86.36 165.1) (xy 86.36 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca7293ca-cdf9-474f-87a9-c70026a70fe4")
+	)
+	(wire
+		(pts
+			(xy 220.98 81.28) (xy 232.41 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfc41ffa-7beb-4224-a9b1-acae65eb4eb1")
+	)
+	(wire
+		(pts
+			(xy 115.57 148.59) (xy 129.54 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfcfdb4f-c8d6-458a-95b1-eeba63e42f53")
+	)
+	(wire
+		(pts
+			(xy 115.57 189.23) (xy 129.54 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0a12913-2630-42f1-bd88-573f9445c7e2")
+	)
+	(wire
+		(pts
+			(xy 118.11 67.31) (xy 118.11 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ee883e-1a2c-4bbc-a7a7-2714cdfdf48f")
+	)
+	(wire
+		(pts
+			(xy 115.57 148.59) (xy 115.57 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d78f9986-b87d-4be3-bb40-4e9d502e9e52")
+	)
+	(wire
+		(pts
+			(xy 255.27 64.77) (xy 257.81 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8e67f76-d5c3-4a0b-bce6-2c36fca57f04")
+	)
+	(wire
+		(pts
+			(xy 200.66 133.35) (xy 257.81 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d97b88f3-ef97-46be-8bc2-6a594296e7b5")
+	)
+	(wire
+		(pts
+			(xy 140.97 53.34) (xy 140.97 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd1070e5-406d-4721-903c-35efd7bd3343")
+	)
+	(wire
+		(pts
+			(xy 129.54 189.23) (xy 129.54 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de45ca5e-24a5-423d-851e-8a517ccf44a2")
+	)
+	(wire
+		(pts
+			(xy 55.88 168.91) (xy 55.88 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de9828e5-e019-409f-9531-fbcdf94d2673")
+	)
+	(wire
+		(pts
+			(xy 118.11 66.04) (xy 118.11 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3286155-8f0d-4825-9517-277049b1e4ad")
+	)
+	(wire
+		(pts
+			(xy 71.12 168.91) (xy 86.36 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4479467-717f-4a6b-b801-2632e1648850")
+	)
+	(wire
+		(pts
+			(xy 271.78 53.34) (xy 271.78 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5ff7c69-937d-4c98-89ed-ecbc368e54e2")
+	)
+	(wire
+		(pts
+			(xy 54.61 21.59) (xy 54.61 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e625ee4e-73db-40e4-856a-bee59cb399bd")
+	)
+	(wire
+		(pts
+			(xy 257.81 90.17) (xy 257.81 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e84a8c0a-fbfc-4192-80a8-d0a6880c344a")
+	)
+	(wire
+		(pts
+			(xy 71.12 148.59) (xy 86.36 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb54dbba-191e-4df4-abd1-51dd76ad5192")
+	)
+	(wire
+		(pts
+			(xy 200.66 83.82) (xy 205.74 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb779a7a-6738-41ea-a4cb-21de14aa6d25")
+	)
+	(wire
+		(pts
+			(xy 27.94 121.92) (xy 86.36 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebe10105-7f76-4645-b767-337bb0f0fa94")
+	)
+	(polyline
+		(pts
+			(xy 240.665 50.165) (xy 240.665 59.055)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "ec7a7fed-e6ad-490d-9296-ae8d1c200df8")
+	)
+	(wire
+		(pts
+			(xy 271.78 90.17) (xy 257.81 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f117f705-6440-4bb0-b80c-ef9c5bbaa1fc")
+	)
+	(wire
+		(pts
+			(xy 121.285 100.965) (xy 121.285 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f18bfc6f-d104-40a7-8b88-912e28b1ecd0")
+	)
+	(wire
+		(pts
+			(xy 200.66 78.74) (xy 205.74 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f40a1a71-9795-44af-ab03-8cfa310d95d3")
+	)
+	(wire
+		(pts
+			(xy 86.36 168.91) (xy 101.6 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f42dcc1c-dab4-4aef-982d-98582dfc3976")
+	)
+	(wire
+		(pts
+			(xy 39.37 166.37) (xy 39.37 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5b45ac8-6e0b-4aef-a469-a29179303e33")
+	)
+	(wire
+		(pts
+			(xy 232.41 81.28) (xy 238.76 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7ff783d-82a3-4544-9c47-6bb5a7f50bce")
+	)
+	(wire
+		(pts
+			(xy 246.38 81.28) (xy 250.19 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8282d31-bd12-4cd8-acc5-2b01388c0aee")
+	)
+	(wire
+		(pts
+			(xy 168.91 83.82) (xy 186.69 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fac09a52-4972-4a92-844e-10c8b75455ca")
+	)
+	(wire
+		(pts
+			(xy 54.61 64.77) (xy 54.61 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb3bc1c9-92c7-4b61-852d-d4444744281a")
+	)
+	(polyline
+		(pts
+			(xy 175.26 45.72) (xy 237.49 45.72)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "ffd80bf1-604f-47c9-8df7-2c46aa4b6c59")
+	)
+	(arc
+		(start 106.68 140.335)
+		(mid 114.4969 106.2232)
+		(end 144.145 87.63)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 150946f0-1faa-4bdc-b0bd-cc9a6f9fffd6)
+	)
+	(rectangle
+		(start 95.885 140.97)
+		(end 109.855 196.85)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1e14d19d-15cd-4d00-b041-3c2f57cff48f)
+	)
+	(arc
+		(start 69.215 140.97)
+		(mid 63.2853 94.3255)
+		(end 92.075 57.15)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 22d3189e-561d-4d30-90c7-3aa47aa4dd99)
+	)
+	(rectangle
+		(start 13.97 140.97)
+		(end 64.77 196.85)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 236e3413-87fb-41e9-8863-1d3faf043b19)
+	)
+	(rectangle
+		(start 13.335 13.97)
+		(end 172.085 138.43)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 245f644d-a3d3-4c6b-b803-67dfcf04466c)
+	)
+	(rectangle
+		(start 66.04 140.97)
+		(end 80.01 196.85)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2af93819-be2c-4439-b4e5-e4db3f14f8bf)
+	)
+	(rectangle
+		(start 110.49 140.97)
+		(end 124.46 196.85)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3f141e92-c608-4ff9-94c9-21258e5314a8)
+	)
+	(arc
+		(start 121.285 142.24)
+		(mid 153.2638 95.5162)
+		(end 208.915 85.09)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b7f21e00-99c7-4f02-8630-7aba1dc793d5)
+	)
+	(rectangle
+		(start 80.645 140.97)
+		(end 94.615 196.85)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c46410d5-b467-4f1a-90b8-7f0998aded07)
+	)
+	(arc
+		(start 89.535 140.97)
+		(mid 85.7982 132.8465)
+		(end 88.9 124.46)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ec88576d-90f3-4ee6-9557-85aedb24530a)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 210.82 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06484982-7d0d-40c5-92b5-eff96aa7d1ad")
+		(property "Reference" "#PWR017"
+			(at 210.82 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+15V"
+			(at 210.82 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 210.82 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10f0f49e-6c2d-45b0-8960-bc2fe7654996")
+		)
+		(instances
+			(project "kicad-rev5"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_C:10NF_100V_CER")
+		(at 71.12 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06663048-ee06-4180-9006-a0d555cb95e5")
+		(property "Reference" "C3"
+			(at 76.2 158.7499 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10n"
+			(at 66.04 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_C:C5_0"
+			(at 76.2 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 78.74 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic disc capacitor"
+			(at 71.12 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 2.4.1.2"
+			(at 81.28 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Prototype Name" "10n"
+			(at 77.47 161.29 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Tolerance" " +-10%"
+			(at 86.36 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "65-735-39"
+			(at 88.9 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9187e54a-ffc2-495b-a480-8cbb08a49cac")
+		)
+		(pin "2"
+			(uuid "a224a803-83b1-4bec-82f9-5d4fb9a2b5ef")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_R:10k")
+		(at 63.5 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "079fae24-525b-4f56-8b5c-ad8ecdda0a51")
+		(property "Reference" "R4"
+			(at 60.452 28.956 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 66.04 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "VAMK_R:R3_5W"
+			(at 68.58 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 71.12 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10K/1%/0.6W"
+			(at 63.5 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 1.9.1.1"
+			(at 73.66 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "+-1%"
+			(at 76.2 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "60-734-23"
+			(at 78.74 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "9463976"
+			(at 81.28 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Blank Field" "none"
+			(at 83.82 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb90227a-3388-4137-986f-2c93beb619c6")
+		)
+		(pin "2"
+			(uuid "a3613fc6-655b-4a1e-bdac-7bca605c086c")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a7b1d22-6a15-4f04-b6be-490d615a79ee")
+		(property "Reference" "#PWR06"
+			(at 177.8 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d42643bb-4085-485b-a0be-466195333269")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_C:10NF_100V_CER")
+		(at 86.36 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c14679a-dcf8-42c7-843d-d892cd4ca905")
+		(property "Reference" "C5"
+			(at 91.44 158.7499 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10n"
+			(at 81.28 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_C:C5_0"
+			(at 91.44 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 93.98 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic disc capacitor"
+			(at 86.36 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 2.4.1.2"
+			(at 96.52 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Prototype Name" "10n"
+			(at 92.71 161.29 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Tolerance" " +-10%"
+			(at 101.6 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "65-735-39"
+			(at 104.14 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "550fd7b5-b37b-4fb9-93d5-024505310ce9")
+		)
+		(pin "2"
+			(uuid "e9f26073-89b7-4228-bc7b-494d8cff48b4")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_R:150k")
+		(at 200.66 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c2cee09-3809-48a2-a21c-91ff09626a00")
+		(property "Reference" "R16"
+			(at 197.866 102.108 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150k"
+			(at 203.2 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "VAMK_R:R3_5W"
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 208.28 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "150K/1%/0.6W"
+			(at 200.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 1.11.2.2"
+			(at 210.82 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "+-1%"
+			(at 213.36 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "60-747-44"
+			(at 215.9 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "9464620"
+			(at 218.44 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Blank Field" "none"
+			(at 220.98 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "45a42eae-de7e-4ffd-a036-13793a4e0689")
+		)
+		(pin "1"
+			(uuid "630a238e-69c3-4546-94d5-6420b7a4cd47")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "ROW_VERT_1X3_1")
+		(lib_id "VAMK_CON:ROW_VERT_1X3")
+		(at 22.86 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "138ab21e-6c94-46db-92c5-26076bd741fe")
+		(property "Reference" "J1/PT100"
+			(at 28.702 114.554 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ROW_VERT_1X3"
+			(at 10.16 119.38 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_CON:ROW_VERT_1x3"
+			(at 10.16 121.92 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 10.16 124.46 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Plug, Vertical Row Header"
+			(at 22.86 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" "3.10.1.X"
+			(at 10.16 127 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "43-702-19"
+			(at 10.16 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Numer Farnell" "329-1807"
+			(at 10.16 132.08 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "066bad12-d1c2-4c32-bfc7-854583ad8f80")
+		)
+		(pin "1"
+			(uuid "802ea9ed-a181-4491-806a-2a2736d6269a")
+		)
+		(pin "3"
+			(uuid "98fb9c57-6cca-4c2f-a524-f601146adace")
+		)
+		(instances
+			(project ""
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "J1/PT100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_R:150k")
+		(at 190.5 53.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "154a1081-b35f-4a58-995d-31523318bf52")
+		(property "Reference" "R17"
+			(at 190.5 49.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "150k"
+			(at 189.992 56.134 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "VAMK_R:R3_5W"
+			(at 190.5 48.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 190.5 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "150K/1%/0.6W"
+			(at 190.5 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 1.11.2.2"
+			(at 190.5 43.18 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "+-1%"
+			(at 190.5 40.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "60-747-44"
+			(at 190.5 38.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "9464620"
+			(at 190.5 35.56 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Blank Field" "none"
+			(at 190.5 33.02 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "58ef7cfc-0ce5-4f48-a76f-478aa9b95f80")
+		)
+		(pin "1"
+			(uuid "1c4512e2-08c3-4ce6-b12d-aa4885f479fb")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 146.05 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1989f892-7bf3-411c-b3dd-ac4f91027424")
+		(property "Reference" "#PWR015"
+			(at 146.05 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+15V"
+			(at 146.05 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 146.05 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b86976a-6241-46d2-b8da-e1c9483b4d90")
+		)
+		(instances
+			(project "kicad-rev5"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_ANA:BC547_TO92_0.1A")
+		(at 255.27 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cb7d58f-7385-41c7-a90c-eba11ac92f8b")
+		(property "Reference" "Q1"
+			(at 260.096 75.946 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC547/TO92/0.1A"
+			(at 271.018 81.026 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "VAMK_ANA:TO-92"
+			(at 273.05 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 273.05 83.82 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "AMPLIFIER NPN SILICON TRANSISTOR"
+			(at 255.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" "3.2.2.1"
+			(at 273.05 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Decal" "TO-92"
+			(at 273.05 88.9 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "71-039-22"
+			(at 273.05 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "357054"
+			(at 273.05 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5f590886-39c5-4ace-b2c8-1d8853b35aa7")
+		)
+		(pin "2"
+			(uuid "60d4229d-4e2d-40a9-a235-262818d9ee4a")
+		)
+		(pin "1"
+			(uuid "885ba386-6f02-4719-b15c-68e88c24fced")
+		)
+		(instances
+			(project ""
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_IC:uA741CP_DIL8")
+		(at 97.79 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b70b097-a068-4d86-a303-c5d1417d8e20")
+		(property "Reference" "uA741CP2"
+			(at 110.49 49.5614 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "uA741CP_DIL8"
+			(at 120.65 48.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_IC:DIL8"
+			(at 120.65 50.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 120.65 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Op-amp Single, general purporse"
+			(at 97.79 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "1094414"
+			(at 120.65 58.42 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Blank Field" "none"
+			(at 120.65 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "73-010-21"
+			(at 120.65 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "72f14801-9b58-46d9-810b-9b28186aed30")
+		)
+		(pin "4"
+			(uuid "9cc98150-4dbc-4f8d-9708-ae1d5899e1d2")
+		)
+		(pin "5"
+			(uuid "d1f63918-2819-4733-9e31-580b26c2a2c6")
+		)
+		(pin "6"
+			(uuid "797469cb-6f88-41cc-81d2-b1f465890d75")
+		)
+		(pin "3"
+			(uuid "203a56cc-bc0a-4cc9-9848-bde15f4a4c7c")
+		)
+		(pin "2"
+			(uuid "b0d701de-ca58-47ff-8c09-8c4d8eabe46f")
+		)
+		(pin "8"
+			(uuid "0e5fa7a8-3980-484f-8fee-73999eceb721")
+		)
+		(pin "1"
+			(uuid "f0d8969a-4e69-4a1e-b288-fc12b968781b")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "uA741CP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 147.32 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "327f7f72-6820-4f9b-bf25-8a24f6dfbaca")
+		(property "Reference" "#PWR05"
+			(at 147.32 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a797d8c7-ad37-4b1d-a9c4-fe132ac5527e")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 257.81 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38dc927b-a0ce-4fe4-b3bc-29271d2cf457")
+		(property "Reference" "#PWR09"
+			(at 257.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+15V"
+			(at 257.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 257.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61b1379b-28ce-42a5-afe0-681ede8d6961")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 242.57 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39f9a70d-7f75-4698-9eae-a8263f913672")
+		(property "Reference" "#PWR011"
+			(at 242.57 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 242.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fdb1798-13d7-46b0-a9a8-28fea3fd343e")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_C:4.7UF_50V_ELE")
+		(at 129.54 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a48743c-2d41-4f02-b5c0-85f39eabbfe8")
+		(property "Reference" "C13"
+			(at 133.604 158.5594 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 124.46 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_C:C_P_2_0_5"
+			(at 134.62 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 137.16 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Aluminum electrolytic capacitor"
+			(at 129.54 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 2.5.4.2"
+			(at 139.7 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Prototype Name" "4.7u"
+			(at 136.144 161.036 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Tolerance" " +-20%"
+			(at 144.78 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "67-013-46"
+			(at 147.32 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "105865"
+			(at 149.86 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4a3ac81e-1ab3-4f96-9754-54415257e590")
+		)
+		(pin "1"
+			(uuid "7ac7b9d0-68d3-49dd-8aea-58b7a819d3c8")
+		)
+		(instances
+			(project ""
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-15V")
+		(at 91.44 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c207b5c-9ab5-4557-89e5-734156824da5")
+		(property "Reference" "#PWR013"
+			(at 91.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-15V"
+			(at 91.44 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-15V\""
+			(at 91.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7576f65-d689-4cbf-a136-8ed5419d8776")
+		)
+		(instances
+			(project "kicad-rev5"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 39.37 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41e9c6b6-9260-4fa3-9886-175c3895b756")
+		(property "Reference" "#PWR03"
+			(at 39.37 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+15V"
+			(at 39.37 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 39.37 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd234cff-5bd2-47e8-9946-24060c4e4646")
+		)
+		(instances
+			(project ""
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 21.59 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48c84e7c-0902-4e04-bcef-bf797b4bbe6f")
+		(property "Reference" "#PWR02"
+			(at 21.59 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 21.59 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 21.59 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f1e4e7d-3f63-43fb-ac9a-640969c6860e")
+		)
+		(instances
+			(project ""
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_R:560R")
+		(at 118.11 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51e0735a-69f6-41fc-81fa-5efd4a3ea6a3")
+		(property "Reference" "R14"
+			(at 114.046 72.136 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "560R"
+			(at 120.65 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "VAMK_R:R3_5W"
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 125.73 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "560R/1%/0.6W"
+			(at 118.11 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 1.6.3.1"
+			(at 128.27 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "+-1%"
+			(at 130.81 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "60-719-97"
+			(at 133.35 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "9469036"
+			(at 135.89 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Blank Field" "none"
+			(at 138.43 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da5bdc79-ea3b-4817-8711-01d41709d28d")
+		)
+		(pin "2"
+			(uuid "6c8dd85a-9055-4d86-8f68-19651b1b5b4c")
+		)
+		(instances
+			(project ""
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_R:150k")
+		(at 232.41 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5622b7f4-9776-4309-81fd-4a1443e5db88")
+		(property "Reference" "R18"
+			(at 232.41 49.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "150k"
+			(at 232.41 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "VAMK_R:R3_5W"
+			(at 232.41 58.42 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 232.41 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "150K/1%/0.6W"
+			(at 232.41 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 1.11.2.2"
+			(at 232.41 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "+-1%"
+			(at 232.41 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "60-747-44"
+			(at 232.41 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "9464620"
+			(at 232.41 71.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Blank Field" "none"
+			(at 232.41 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "10880754-f9ca-49c7-b074-6c43b57dd4c1")
+		)
+		(pin "1"
+			(uuid "43150a95-6d5f-4e2e-adf7-2aca1e774f6d")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_R:100R")
+		(at 257.81 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57dac19f-e9d4-408b-a4cb-0a78b56f6258")
+		(property "Reference" "R20"
+			(at 255.27 97.282 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100R"
+			(at 260.35 99.06 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "VAMK_R:R3_5W"
+			(at 262.89 99.06 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 265.43 99.06 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100R/1%/0.6W"
+			(at 257.81 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 1.5.1.1"
+			(at 267.97 99.06 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "+-1%"
+			(at 270.51 99.06 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "60-711-46"
+			(at 273.05 99.06 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "9463909"
+			(at 275.59 99.06 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Blank Field" "none"
+			(at 278.13 99.06 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "955fcd73-f4ad-4d01-9a92-59a7d74d2ee9")
+		)
+		(pin "2"
+			(uuid "c4c1e4fb-0dd4-4c85-9753-2338adcf47c7")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_C:10NF_100V_CER")
+		(at 115.57 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63e81b36-1483-49be-b608-5b7c1ff6efd2")
+		(property "Reference" "C9"
+			(at 120.65 158.7499 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10n"
+			(at 110.49 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_C:C5_0"
+			(at 120.65 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 123.19 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic disc capacitor"
+			(at 115.57 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 2.4.1.2"
+			(at 125.73 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Prototype Name" "10n"
+			(at 121.92 161.29 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Tolerance" " +-10%"
+			(at 130.81 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "65-735-39"
+			(at 133.35 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab7f32e4-4734-4bbb-8de1-258a6ecdd3f9")
+		)
+		(pin "2"
+			(uuid "4d6384ca-c9b2-4830-9f56-b2214f2058cf")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_C:10NF_100V_CER")
+		(at 55.88 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69468717-4a16-4f2c-bc39-0106c441325e")
+		(property "Reference" "C1"
+			(at 60.96 158.7499 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10n"
+			(at 50.8 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_C:C5_0"
+			(at 60.96 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 63.5 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic disc capacitor"
+			(at 55.88 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 2.4.1.2"
+			(at 66.04 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Prototype Name" "10n"
+			(at 62.23 161.29 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Tolerance" " +-10%"
+			(at 71.12 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "65-735-39"
+			(at 73.66 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c660722-c36a-4843-b678-546fb7a23abc")
+		)
+		(pin "2"
+			(uuid "6e1bf485-ff25-4ab2-88d9-73af1f4455e4")
+		)
+		(instances
+			(project ""
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_R:56R")
+		(at 54.61 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a6b37bc-9464-4721-a2cc-5c0e6967800b")
+		(property "Reference" "R10"
+			(at 51.308 59.182 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "56R"
+			(at 57.15 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "VAMK_R:R3_5W"
+			(at 59.69 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 62.23 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "56R/1%/0.6W"
+			(at 54.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 1.4.3.1"
+			(at 64.77 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "+-1%"
+			(at 67.31 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "60-708-58"
+			(at 69.85 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "9469087"
+			(at 72.39 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Blank Field" "none"
+			(at 74.93 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "637fbcd6-67c0-46e8-8d01-434af9552b15")
+		)
+		(pin "1"
+			(uuid "f5505b80-3555-46e7-a7a3-180fabc2f320")
+		)
+		(instances
+			(project ""
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_C:10NF_100V_CER")
+		(at 115.57 180.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70e99456-d1f4-47d2-a08f-f709d8bb9625")
+		(property "Reference" "C10"
+			(at 120.65 180.3399 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10n"
+			(at 110.49 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_C:C5_0"
+			(at 120.65 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 123.19 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic disc capacitor"
+			(at 115.57 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 2.4.1.2"
+			(at 125.73 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Prototype Name" "10n"
+			(at 121.92 182.88 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Tolerance" " +-10%"
+			(at 130.81 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "65-735-39"
+			(at 133.35 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56e0cbe3-01a7-41dd-8906-55d1ef09f7a2")
+		)
+		(pin "2"
+			(uuid "4e18a26d-ea6f-434f-b398-95574db1881e")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_C:10NF_100V_CER")
+		(at 248.92 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "718374c7-8bc0-4f68-bf13-53b11715d508")
+		(property "Reference" "C15"
+			(at 245.872 60.706 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 248.92 58.42 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "VAMK_C:C5_0"
+			(at 248.92 69.85 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 248.92 72.39 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic disc capacitor"
+			(at 248.92 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 2.4.1.2"
+			(at 248.92 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Prototype Name" "10n"
+			(at 248.92 77.47 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" " +-10%"
+			(at 248.92 80.01 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "65-735-39"
+			(at 248.92 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "548ab563-3c6e-4f53-bc53-bee5ac973855")
+		)
+		(pin "1"
+			(uuid "76439437-f544-4e7e-9723-533920e77ffa")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 36.83 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74f32a49-680f-4166-8c05-f4f4ca456df6")
+		(property "Reference" "#PWR01"
+			(at 36.83 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+15V"
+			(at 36.83 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 36.83 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b49b46f-a253-490f-bf7c-c2a8eaeaeae8")
+		)
+		(instances
+			(project ""
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_CON:ROW_VERT_1X2")
+		(at 264.16 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "814df988-1a6c-4cd2-a122-b08143f1c90a")
+		(property "Reference" "J3"
+			(at 262.89 129.794 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4mA-20mA"
+			(at 273.05 134.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "VAMK_CON:ROW_VERT_1x2"
+			(at 279.4 133.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 279.4 135.89 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Plug, Vertical Row Header"
+			(at 264.16 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" "3.10.1.X"
+			(at 279.4 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "43-702-19"
+			(at 279.4 140.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Numer Farnell" "329-1807"
+			(at 279.4 143.51 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c709f192-fb58-4c36-a52e-11e340564136")
+		)
+		(pin "2"
+			(uuid "cdf7da8d-23a3-4065-a7df-40c0e6d28af7")
+		)
+		(instances
+			(project ""
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 91.44 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9afa368e-2893-4d69-bad0-ee277ada6928")
+		(property "Reference" "#PWR012"
+			(at 91.44 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+15V"
+			(at 91.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 91.44 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db87a8c6-cd3b-4482-bf2f-ed9363cac09b")
+		)
+		(instances
+			(project "kicad-rev5"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-15V")
+		(at 210.82 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0248221-f525-49b1-a805-51152c8e4412")
+		(property "Reference" "#PWR016"
+			(at 210.82 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-15V"
+			(at 210.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-15V\""
+			(at 210.82 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbd0fe45-f5f6-43e5-b0ad-9cc5e2d9d16e")
+		)
+		(instances
+			(project "kicad-rev5"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_C:4.7UF_50V_ELE")
+		(at 129.54 180.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2ccacdf-e810-4ac5-8070-b1b491ff1907")
+		(property "Reference" "C14"
+			(at 133.604 180.1494 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 124.46 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_C:C_P_2_0_5"
+			(at 134.62 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 137.16 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Aluminum electrolytic capacitor"
+			(at 129.54 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 2.5.4.2"
+			(at 139.7 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Prototype Name" "4.7u"
+			(at 136.144 182.626 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Tolerance" " +-20%"
+			(at 144.78 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "67-013-46"
+			(at 147.32 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "105865"
+			(at 149.86 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "048626b0-46bd-4cde-b63f-3fadaf9fd993")
+		)
+		(pin "1"
+			(uuid "0ed33320-bb23-4d5a-8134-782ed28cba80")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_IC:uA741CP_DIL8")
+		(at 93.98 119.38 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5948ac8-638c-4c49-8977-348f447bbc8a")
+		(property "Reference" "uA741CP1"
+			(at 106.68 123.1586 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "uA741CP_DIL8"
+			(at 116.84 124.46 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_IC:DIL8"
+			(at 116.84 121.92 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 116.84 119.38 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Op-amp Single, general purporse"
+			(at 93.98 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "1094414"
+			(at 116.84 114.3 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Blank Field" "none"
+			(at 116.84 111.76 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "73-010-21"
+			(at 116.84 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "a9a4c7bb-163f-4953-a5e7-9cdb3da6c22d")
+		)
+		(pin "4"
+			(uuid "63148d2e-d8a2-4dd8-aa60-b888657e2728")
+		)
+		(pin "5"
+			(uuid "0ff265e7-eff8-4ea1-b06b-ded226bc1b4b")
+		)
+		(pin "6"
+			(uuid "64b08403-9c8f-4a6a-a910-04b116c4588b")
+		)
+		(pin "3"
+			(uuid "e778d071-dce0-449d-98ae-87745ae652b1")
+		)
+		(pin "2"
+			(uuid "59a75322-7556-44e9-a950-27f7edec65ab")
+		)
+		(pin "8"
+			(uuid "5dc21574-cfbd-46f2-8482-f2376e4e8a63")
+		)
+		(pin "1"
+			(uuid "56da3af7-91b4-4694-abfa-596493181a38")
+		)
+		(instances
+			(project ""
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "uA741CP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_IC:uA741CP_DIL8")
+		(at 213.36 81.28 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7152042-6ce0-4d32-88ac-8b33fe23badd")
+		(property "Reference" "uA741CP4"
+			(at 226.06 85.0586 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "uA741CP_DIL8"
+			(at 236.22 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_IC:DIL8"
+			(at 236.22 83.82 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 236.22 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Op-amp Single, general purporse"
+			(at 213.36 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "1094414"
+			(at 236.22 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Blank Field" "none"
+			(at 236.22 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "73-010-21"
+			(at 236.22 71.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "27090453-bdf7-4c50-8f55-3ae7ebe05daf")
+		)
+		(pin "4"
+			(uuid "d1cc0d48-b8d5-44b5-926a-c7ab9b42eeb8")
+		)
+		(pin "5"
+			(uuid "0d008272-0188-4096-8338-a3cda46c322f")
+		)
+		(pin "6"
+			(uuid "5ee9f4d7-7d02-43af-b29b-51a6d8f350e8")
+		)
+		(pin "3"
+			(uuid "5abdcd69-d722-4522-904c-ce8bd878ab75")
+		)
+		(pin "2"
+			(uuid "9660a296-b0c4-4ec4-8ab4-0efa0cf912d2")
+		)
+		(pin "8"
+			(uuid "88e0959f-2024-46ea-b411-4458adfb42df")
+		)
+		(pin "1"
+			(uuid "57000629-658c-4a33-9830-2689426a1974")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "uA741CP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_R:10k")
+		(at 125.73 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7510c72-70f1-42a0-b1ac-b6d2f67c82de")
+		(property "Reference" "R6"
+			(at 125.73 116.586 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 125.73 121.92 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "VAMK_R:R3_5W"
+			(at 125.73 124.46 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 125.73 127 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10K/1%/0.6W"
+			(at 125.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 1.9.1.1"
+			(at 125.73 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "+-1%"
+			(at 125.73 132.08 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "60-734-23"
+			(at 125.73 134.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "9463976"
+			(at 125.73 137.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Blank Field" "none"
+			(at 125.73 139.7 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f51a4e22-13c6-4667-8116-3bb3bfacf2a9")
+		)
+		(pin "2"
+			(uuid "1cf24554-11cb-4a78-913e-b16720408059")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_R:10k")
+		(at 118.11 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a76194df-d170-4d4b-a875-07fe50871fd6")
+		(property "Reference" "R5"
+			(at 119.888 108.712 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 121.666 110.998 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "VAMK_R:R3_5W"
+			(at 123.19 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 125.73 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10K/1%/0.6W"
+			(at 118.11 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 1.9.1.1"
+			(at 128.27 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "+-1%"
+			(at 130.81 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "60-734-23"
+			(at 133.35 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "9463976"
+			(at 135.89 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Blank Field" "none"
+			(at 138.43 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8d8a077-ec13-412a-9bac-f4d992831192")
+		)
+		(pin "2"
+			(uuid "b49a6750-0f8a-4d3d-a157-70e8a7732955")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_MISC:TRIMMER_1K")
+		(at 118.11 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a844f39c-ab32-4865-9b7f-cc9624d554e0")
+		(property "Reference" "R13"
+			(at 114.808 89.154 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "50R"
+			(at 123.444 90.932 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "VAMK_MISC:TRIMMER"
+			(at 115.57 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 125.73 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trimmer, 1k"
+			(at 118.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" "4.3.1.1"
+			(at 128.27 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "9607811"
+			(at 130.81 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8b37796c-f6eb-4e83-98fc-031a2cacd4c6")
+		)
+		(pin "1"
+			(uuid "4e5ce5bd-6b65-4d8a-9425-0c716768774a")
+		)
+		(pin "2"
+			(uuid "05ab12df-5456-4c44-bd29-f1391b4e2b23")
+		)
+		(instances
+			(project ""
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_IC:uA741CP_DIL8")
+		(at 148.59 83.82 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8f7dc86-f2b2-4707-bfdf-d272d7f47e78")
+		(property "Reference" "uA741CP3"
+			(at 161.29 87.5986 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "uA741CP_DIL8"
+			(at 171.45 88.9 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_IC:DIL8"
+			(at 171.45 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 171.45 83.82 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Op-amp Single, general purporse"
+			(at 148.59 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "1094414"
+			(at 171.45 78.74 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Blank Field" "none"
+			(at 171.45 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "73-010-21"
+			(at 171.45 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "abd5c71e-cd51-446b-8099-dfc3d005be6d")
+		)
+		(pin "4"
+			(uuid "a7f993d3-cbe4-4f62-a963-6909f07d48b3")
+		)
+		(pin "5"
+			(uuid "cc908bb4-a120-46ae-9817-6b764c159a37")
+		)
+		(pin "6"
+			(uuid "97ed5ec6-ac36-4a79-bb9e-a75c335672d2")
+		)
+		(pin "3"
+			(uuid "2da9056c-ce5d-4406-954d-509e0f4fa5f6")
+		)
+		(pin "2"
+			(uuid "cc20241e-bce5-4613-8452-d064701ed148")
+		)
+		(pin "8"
+			(uuid "308e23f3-b279-428c-b7d4-8e469f9cc834")
+		)
+		(pin "1"
+			(uuid "09734531-bf1b-44f9-86ac-c48a5a054ab9")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "uA741CP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_C:10NF_100V_CER")
+		(at 21.59 30.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa5f7fa5-244f-44e7-9011-86c652895142")
+		(property "Reference" "C16"
+			(at 15.24 34.036 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 27.94 30.48 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_C:C5_0"
+			(at 16.51 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 13.97 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic disc capacitor"
+			(at 21.59 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 2.4.1.2"
+			(at 11.43 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Prototype Name" "10n"
+			(at 17.526 36.83 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Tolerance" " +-10%"
+			(at 6.35 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "65-735-39"
+			(at 3.81 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c3f5f975-e1a2-414b-989f-a014a99ec221")
+		)
+		(pin "1"
+			(uuid "e67dd1ea-555e-4b20-b26c-aca2deece449")
+		)
+		(instances
+			(project ""
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_R:10k")
+		(at 146.05 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adf9fec4-69e7-4a67-a1e0-f39ee29ff669")
+		(property "Reference" "R9"
+			(at 146.05 49.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 146.05 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "VAMK_R:R3_5W"
+			(at 146.05 58.42 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 146.05 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10K/1%/0.6W"
+			(at 146.05 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 1.9.1.1"
+			(at 146.05 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "+-1%"
+			(at 146.05 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "60-734-23"
+			(at 146.05 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "9463976"
+			(at 146.05 71.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Blank Field" "none"
+			(at 146.05 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f72edd6a-dee0-4215-8143-70ab618417cf")
+		)
+		(pin "2"
+			(uuid "dc7c6b05-1f26-4921-9653-3166f4693b65")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_R:10k")
+		(at 147.32 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3a90340-07b3-4f86-a342-b90fc4c0867a")
+		(property "Reference" "R7"
+			(at 147.32 116.586 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 147.32 121.92 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "VAMK_R:R3_5W"
+			(at 147.32 124.46 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 147.32 127 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10K/1%/0.6W"
+			(at 147.32 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 1.9.1.1"
+			(at 147.32 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "+-1%"
+			(at 147.32 132.08 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "60-734-23"
+			(at 147.32 134.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "9463976"
+			(at 147.32 137.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Blank Field" "none"
+			(at 147.32 139.7 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78b210e7-cb43-4a32-a9ba-c0f5c5345b11")
+		)
+		(pin "2"
+			(uuid "b2eb0519-a3e8-4ff0-b81e-6a5b2b9b2ad5")
+		)
+		(instances
+			(project ""
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_R:10k")
+		(at 125.73 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5ad22c6-7fdf-44cc-8063-e5bfc5eb1e7b")
+		(property "Reference" "R8"
+			(at 125.73 49.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 125.73 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "VAMK_R:R3_5W"
+			(at 125.73 58.42 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 125.73 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10K/1%/0.6W"
+			(at 125.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 1.9.1.1"
+			(at 125.73 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "+-1%"
+			(at 125.73 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "60-734-23"
+			(at 125.73 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "9463976"
+			(at 125.73 71.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Blank Field" "none"
+			(at 125.73 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f82abbd3-64f1-494f-ba1e-8515f35fb8c5")
+		)
+		(pin "2"
+			(uuid "a6c74984-ff3d-48a1-83eb-0970291878e0")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-15V")
+		(at 146.05 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b882f8e4-e8e9-4452-936e-e8d315bd6303")
+		(property "Reference" "#PWR014"
+			(at 146.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-15V"
+			(at 146.05 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-15V\""
+			(at 146.05 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8bb663b-aadf-447b-a7f0-ea9ee424e5ac")
+		)
+		(instances
+			(project "kicad-rev5"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_R:150k")
+		(at 190.5 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb0c0300-86f5-445a-bbbe-9e0c3289b261")
+		(property "Reference" "R15"
+			(at 190.5 80.01 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "150k"
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "VAMK_R:R3_5W"
+			(at 190.5 88.9 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 190.5 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "150K/1%/0.6W"
+			(at 190.5 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 1.11.2.2"
+			(at 190.5 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "+-1%"
+			(at 190.5 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "60-747-44"
+			(at 190.5 99.06 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "9464620"
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Blank Field" "none"
+			(at 190.5 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "67ac3ff2-b449-4184-8da2-c678164e7e62")
+		)
+		(pin "1"
+			(uuid "00f170c4-338d-4228-9812-d5e471973952")
+		)
+		(instances
+			(project ""
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_C:10NF_100V_CER")
+		(at 71.12 180.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbdddbdd-2e74-40ad-a41d-1682fe0815f2")
+		(property "Reference" "C4"
+			(at 76.2 180.3399 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10n"
+			(at 66.04 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_C:C5_0"
+			(at 76.2 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 78.74 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic disc capacitor"
+			(at 71.12 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 2.4.1.2"
+			(at 81.28 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Prototype Name" "10n"
+			(at 77.47 182.88 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Tolerance" " +-10%"
+			(at 86.36 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "65-735-39"
+			(at 88.9 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5589dcf9-9e2a-40bc-9b35-ef834173ec2d")
+		)
+		(pin "2"
+			(uuid "1d9af34a-317d-499b-ab53-da6e5c3982e7")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_CON:ROW_VERT_1X3")
+		(at 22.86 168.91 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd2dd8cb-9e26-463e-86d4-7d1b8dba9635")
+		(property "Reference" "J2"
+			(at 22.86 175.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "ROW_VERT_1X3"
+			(at 24.384 161.036 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "VAMK_CON:ROW_VERT_1x3"
+			(at 10.16 168.91 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 10.16 171.45 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Plug, Vertical Row Header"
+			(at 22.86 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" "3.10.1.X"
+			(at 10.16 173.99 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "43-702-19"
+			(at 10.16 176.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Numer Farnell" "329-1807"
+			(at 10.16 179.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06f25a6b-030e-4222-b19b-87e503903f31")
+		)
+		(pin "2"
+			(uuid "996ac9df-f172-4ff9-8186-c8541d1dd806")
+		)
+		(pin "3"
+			(uuid "bb08371f-c698-4491-a69c-b230f3ba02fd")
+		)
+		(instances
+			(project ""
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 95.25 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd83f265-82cc-4b02-8db4-9a0d86f38ea5")
+		(property "Reference" "#PWR020"
+			(at 95.25 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+15V"
+			(at 95.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 95.25 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0bb0fef-3181-4dff-b31e-d60d81b5ea63")
+		)
+		(instances
+			(project "kicad-rev1"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 163.83 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c04df015-793b-43c0-8a82-3536bc116224")
+		(property "Reference" "#PWR08"
+			(at 163.83 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "469e8b10-a73a-4055-ab1d-8dc87ae0e64f")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_C:10NF_100V_CER")
+		(at 86.36 180.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0db7df0-c430-476c-a5c0-eb9e831fd8c4")
+		(property "Reference" "C6"
+			(at 91.44 180.3399 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10n"
+			(at 81.28 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_C:C5_0"
+			(at 91.44 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 93.98 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic disc capacitor"
+			(at 86.36 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 2.4.1.2"
+			(at 96.52 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Prototype Name" "10n"
+			(at 92.71 182.88 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Tolerance" " +-10%"
+			(at 101.6 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "65-735-39"
+			(at 104.14 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "149c3037-93e3-4747-a370-e0f633db0691")
+		)
+		(pin "2"
+			(uuid "34100bc9-81a6-4dad-aab7-60de56bb72b5")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_C:10NF_100V_CER")
+		(at 101.6 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c49111e8-970b-44e2-bc30-ade7496439f1")
+		(property "Reference" "C7"
+			(at 106.68 158.7499 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10n"
+			(at 96.52 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_C:C5_0"
+			(at 106.68 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 109.22 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic disc capacitor"
+			(at 101.6 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 2.4.1.2"
+			(at 111.76 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Prototype Name" "10n"
+			(at 107.95 161.29 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Tolerance" " +-10%"
+			(at 116.84 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "65-735-39"
+			(at 119.38 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a64340c-64a9-432a-b13b-8bb20396c113")
+		)
+		(pin "2"
+			(uuid "7405c9ca-3b4b-49ce-8366-6ef51a9d6745")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_C:10NF_100V_CER")
+		(at 55.88 180.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca514624-bf9e-45a8-8593-16a6626018cd")
+		(property "Reference" "C2"
+			(at 60.96 180.3399 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10n"
+			(at 50.8 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_C:C5_0"
+			(at 60.96 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 63.5 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic disc capacitor"
+			(at 55.88 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 2.4.1.2"
+			(at 66.04 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Prototype Name" "10n"
+			(at 62.23 182.88 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Tolerance" " +-10%"
+			(at 71.12 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "65-735-39"
+			(at 73.66 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c4c9cb8-81c8-41e6-a1e2-32b96544e162")
+		)
+		(pin "2"
+			(uuid "aa3b8238-2d5c-4aff-b504-e4e98edb94ab")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_R:10k")
+		(at 54.61 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca9c9725-789c-4fe2-8d26-450f4dc44ed3")
+		(property "Reference" "R3"
+			(at 51.562 28.956 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 57.15 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "VAMK_R:R3_5W"
+			(at 59.69 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 62.23 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10K/1%/0.6W"
+			(at 54.61 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 1.9.1.1"
+			(at 64.77 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "+-1%"
+			(at 67.31 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "60-734-23"
+			(at 69.85 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "9463976"
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Blank Field" "none"
+			(at 74.93 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0670bbbd-9c5b-4142-a811-488d68adf553")
+		)
+		(pin "2"
+			(uuid "44c7ecb9-a413-4cbb-85ea-bbf5725ad578")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_C:10NF_100V_CER")
+		(at 101.6 180.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb29d098-52d0-4b1d-9ddd-7f96d3928e35")
+		(property "Reference" "C8"
+			(at 106.68 180.3399 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10n"
+			(at 96.52 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_C:C5_0"
+			(at 106.68 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic disc capacitor"
+			(at 101.6 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 2.4.1.2"
+			(at 111.76 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Prototype Name" "10n"
+			(at 107.95 182.88 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Tolerance" " +-10%"
+			(at 116.84 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "65-735-39"
+			(at 119.38 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd51216e-be96-474d-b8ff-77247897d731")
+		)
+		(pin "2"
+			(uuid "efebd618-7b88-432e-98db-b9971617fd31")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-15V")
+		(at 39.37 190.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd4327ee-5002-417b-aed0-11410a90ac42")
+		(property "Reference" "#PWR04"
+			(at 39.37 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-15V"
+			(at 39.37 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-15V\""
+			(at 39.37 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d629afa7-a1ab-4f90-a85a-14e03f2526d8")
+		)
+		(instances
+			(project ""
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_C:10NF_100V_CER")
+		(at 210.82 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdf7d75d-8525-436b-a671-290932bc6365")
+		(property "Reference" "C17"
+			(at 207.772 63.246 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 210.82 60.96 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "VAMK_C:C5_0"
+			(at 210.82 72.39 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 210.82 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic disc capacitor"
+			(at 210.82 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 2.4.1.2"
+			(at 210.82 77.47 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Prototype Name" "10n"
+			(at 210.82 80.01 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" " +-10%"
+			(at 210.82 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "65-735-39"
+			(at 210.82 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "96cc26fd-4363-4804-97ef-00132e4498c2")
+		)
+		(pin "1"
+			(uuid "6aaae497-2bb6-4d36-99e9-04f3bec028f1")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d19e86e1-addc-447d-9f10-e148a3bdc294")
+		(property "Reference" "#PWR07"
+			(at 54.61 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e1cd2a9-b4b1-424a-b9e1-2840b565365b")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-15V")
+		(at 95.25 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7d99c65-24da-452d-82d8-a3f7cfd1a65d")
+		(property "Reference" "#PWR019"
+			(at 95.25 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-15V"
+			(at 95.25 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-15V\""
+			(at 95.25 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccfa3630-137e-4285-9854-02fbc652e995")
+		)
+		(instances
+			(project "kicad-rev1"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 259.08 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db168b62-c235-4ff7-8caf-b94bf346e4b3")
+		(property "Reference" "#PWR010"
+			(at 259.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.08 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 259.08 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1019dbf2-f79d-4bbf-9161-9231616402c0")
+		)
+		(instances
+			(project "kicad-rev2"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_R:150R")
+		(at 257.81 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2873f5e-3613-45b4-b54c-3b398cb744af")
+		(property "Reference" "R21"
+			(at 255.016 111.252 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150R"
+			(at 260.35 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "VAMK_R:R3_5W"
+			(at 262.89 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 265.43 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "150R/1%/0.6W"
+			(at 257.81 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 1.5.2.2"
+			(at 267.97 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "+-1%"
+			(at 270.51 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "60-713-28"
+			(at 273.05 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "9464638"
+			(at 275.59 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Blank Field" "none"
+			(at 278.13 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "efc23d6c-f647-4cfa-834d-03a4e736db89")
+		)
+		(pin "1"
+			(uuid "0fa012f5-b5c7-441d-8989-0fc5f2f3e616")
+		)
+		(instances
+			(project ""
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_R:10k")
+		(at 118.11 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e30ca1b6-0ec7-4abe-aedf-1129cd0f624f")
+		(property "Reference" "R11"
+			(at 114.808 64.516 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 120.65 62.23 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "VAMK_R:R3_5W"
+			(at 123.19 62.23 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 125.73 62.23 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10K/1%/0.6W"
+			(at 118.11 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 1.9.1.1"
+			(at 128.27 62.23 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "+-1%"
+			(at 130.81 62.23 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "60-734-23"
+			(at 133.35 62.23 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "9463976"
+			(at 135.89 62.23 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Blank Field" "none"
+			(at 138.43 62.23 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8260af73-6bec-4549-a505-774bf667d6e4")
+		)
+		(pin "2"
+			(uuid "0964139c-36f5-4022-9246-72a675214c81")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_R:10k")
+		(at 36.83 30.48 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4769dc8-25eb-4bd0-bf1b-0c51fd059635")
+		(property "Reference" "R2"
+			(at 39.878 28.956 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 34.29 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "VAMK_R:R3_5W"
+			(at 31.75 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 29.21 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10K/1%/0.6W"
+			(at 36.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 1.9.1.1"
+			(at 26.67 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "+-1%"
+			(at 24.13 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "60-734-23"
+			(at 21.59 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "9463976"
+			(at 19.05 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Blank Field" "none"
+			(at 16.51 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab6ac9e6-c75d-4e1b-b620-957feb1aa5b8")
+		)
+		(pin "2"
+			(uuid "dfa3661b-38df-4d37-a069-91f6afbaad42")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_R:100R")
+		(at 242.57 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f578c5c2-277d-4e6b-9b54-17efa6ed4256")
+		(property "Reference" "R19"
+			(at 242.57 77.47 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 242.57 83.82 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "VAMK_R:R3_5W"
+			(at 242.57 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 242.57 88.9 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100R/1%/0.6W"
+			(at 242.57 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 1.5.1.1"
+			(at 242.57 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "+-1%"
+			(at 242.57 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "60-711-46"
+			(at 242.57 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "9463909"
+			(at 242.57 99.06 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Blank Field" "none"
+			(at 242.57 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e192270-8be8-4b56-89d2-82ba1d353ab3")
+		)
+		(pin "2"
+			(uuid "1a8b76ba-12eb-4254-82d4-a509f888f9a5")
+		)
+		(instances
+			(project ""
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_MISC:TRIMMER_1K")
+		(at 54.61 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "feb6d652-6510-4407-89e2-0db19b8bd026")
+		(property "Reference" "R12"
+			(at 48.26 79.756 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "50R"
+			(at 51.054 79.756 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "VAMK_MISC:TRIMMER"
+			(at 52.07 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 62.23 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trimmer, 1k"
+			(at 54.61 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" "4.3.1.1"
+			(at 64.77 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "9607811"
+			(at 67.31 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c02117fc-01c3-4276-b20d-e5a124453fa7")
+		)
+		(pin "3"
+			(uuid "c05b4bfe-d6c9-42b3-8d2a-ed08e5f64987")
+		)
+		(pin "1"
+			(uuid "154376bc-97c1-4860-b3de-bd36e6dd195c")
+		)
+		(instances
+			(project "kicad"
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_R:10k")
+		(at 45.72 30.48 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff01e238-a263-436e-94ae-b17386898eb8")
+		(property "Reference" "R1"
+			(at 48.768 28.956 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 43.18 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "VAMK_R:R3_5W"
+			(at 40.64 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 38.1 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10K/1%/0.6W"
+			(at 45.72 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 1.9.1.1"
+			(at 35.56 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "+-1%"
+			(at 33.02 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "60-734-23"
+			(at 30.48 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "9463976"
+			(at 27.94 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Blank Field" "none"
+			(at 25.4 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32a9ed27-c977-4685-b75a-bb7edff1b79d")
+		)
+		(pin "2"
+			(uuid "260804ba-c38b-47bf-ba55-85c39b098438")
+		)
+		(instances
+			(project ""
+				(path "/2bd6140e-5814-4211-a129-02602eed9414"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
